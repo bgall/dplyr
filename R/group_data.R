@@ -12,6 +12,10 @@
 #'   returns the rows which each group contains). `group_indices()` with no
 #'   argument is deprecated, superseded by [cur_group_id()].
 #'
+#' * `group_keys()` returns a tibble that contains a column for each variable
+#'   used to define the grouping structure and a row containing the values
+#'   of those variables that define each group.
+#'
 #' * `group_vars()` gives names of grouping variables as character vector;
 #'   `groups()` gives the names as a list of symbols.
 #'
